@@ -1,7 +1,10 @@
 import React from 'react'
 
 const Navbar = () => {
-    
+    const handleAuthClick = () => {
+        // Implement your authentication logic here
+        console.log('Authentication button clicked');
+    }
   return (
     <div className='navbar'>
       <nav className='inner'>
